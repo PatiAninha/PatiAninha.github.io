@@ -1,0 +1,68 @@
+
+body {
+    background: #202020;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.avatar {
+    width: 210px;
+    border-radius: 50%;
+    background: rgb(242,196,32);
+}
+
+h1{
+    font-family: 'Readex Pro', sans-serif;
+    color:rgb(242,196,32);
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color:rgb(242,196,32);
+    font-size: 12px;    
+}
+
+.profile {
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.links-list{
+    padding-left: 0;
+}
+
+.links-list li {
+    margin-bottom: 10px;
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    animation:bounceInDown;
+    animation-duration: 3s;
+}
+
+.links-list li a {
+    display: flex;
+    align-items: center;
+    background:#303030;
+    color: rgb(242,196,32);
+    padding: 10px;
+    box-sizing: border-box; 
+    border-radius: 5px;
+    width: 300px;
+    text-decoration: none;
+    box-shadow: 0 0 2px #505050;
+}
+
+.imagem-icon{
+    margin-right: 10px;
+}
+
+.links-list li a span {
+    text-align: left;
+}
+
+.sound{
+    margin-left: -8px;
+    margin-top: 20px;
+}
